@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void getAlumnos() {
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http://192.168.100.88:3000/")
+                .baseUrl("http://172.16.64.155:3000/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 
